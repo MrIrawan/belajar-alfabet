@@ -127,5 +127,5 @@ header .wrapper a:hover {
 .char-item:hover {
   transform: scale(.95);
   border-color: var(--color-main);
-  box-shadow: 0 3px 2rem var(--color-main);
+  box-shadow: 0 2px 1rem inset var(--color-main),  0 -2px 2rem inset var(--color-main);
 }
