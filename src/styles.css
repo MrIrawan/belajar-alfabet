@@ -3,12 +3,20 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
+  background-color: var(--background);
+}
+
+:root {
+  --color-main: #69247C;
+  --background: #111111;
+  --text: #ffffff;
 }
 
 header {
-  background-color: #333;
+  background-color: #111111;
   padding: 1rem 0;
   text-align: center;
+  border-bottom: 2px solid var(--color-main);
 }
 
 header .wrapper a {
@@ -17,4 +25,20 @@ header .wrapper a {
   font-size: 1.5rem;
   font-weight: bold;
   transition: all .3s ease-in-out;
+}
+
+main .wrapper {
+  padding: 2rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 1rem 0;
+}
+
+section .title-section {
+  color: var(--text);
+  margin-bottom: 1rem;
+  margin-top: 0;
 }
