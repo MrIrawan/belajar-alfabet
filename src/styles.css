@@ -41,6 +41,10 @@ section .title-section {
   margin-top: 0;
 }
 
+section hr {
+  margin-bottom: 24px;
+}
+
 .char-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
