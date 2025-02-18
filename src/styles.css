@@ -29,8 +29,6 @@ header .wrapper a {
 
 main .wrapper {
   padding: 2rem;
-  width: 70%;
-  margin: 0 auto;
 }
 
 .container {
@@ -45,15 +43,16 @@ section .title-section {
 
 .char-list {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
 }
 
 .char-item {
   background: var(--background);
   padding: 1rem;
-  width: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
   border: 1px solid var(--text);
   transition: all .3s ease-in-out;
 }
@@ -91,10 +90,11 @@ section .title-section {
   line-height: 24px;
   font-weight: 500;
   color: var(--text);
+  margin: 0;
 }
 
 .char__example img {
-  width: 300px;
+  width: 200px;
   height: 100%;
   object-fit: cover;
 }
