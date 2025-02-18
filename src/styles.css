@@ -119,3 +119,13 @@ footer .foot-information {
   color: var(--text);
   text-decoration: none;
 }
+
+header .wrapper a:hover {
+  color: var(--color-main);
+}
+
+.char-item:hover {
+  transform: scale(.95);
+  border-color: var(--color-main);
+  box-shadow: 0 3px 2rem var(--color-main);
+}
